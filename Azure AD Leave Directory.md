@@ -14,7 +14,7 @@ At the bottom of the screen you see a list of Directories your account is added 
 
 -----------------
 
-By signing in to the tenant you'd like to leave, and then clicking the "BacK" button of your browser twice, you see the option to now remove yourself from that particular tenant by clicking the `Leave Organisation` link:
+By signing in to the tenant you'd like to leave, and then clicking the "Back" button of your browser twice, you see the option to now remove yourself from that particular tenant by clicking the `Leave Organisation` link:
 
 ----------------
 
