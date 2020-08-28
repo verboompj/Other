@@ -1,6 +1,6 @@
 # WDATP for Linux 
 
-Ubuntu 20.04 Server(S) enrolled in WDATP.  
+Ubuntu 20.04 Server(S) enrolled in WDATP and Azure Security Center
 
 ----------------
 
