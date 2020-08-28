@@ -1,4 +1,4 @@
-#WDATP for Linux 
+# WDATP for Linux 
 
 Ubuntu 20.04 Server(S) enrolled in WDATP.  
 
