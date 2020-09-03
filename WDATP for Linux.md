@@ -1,4 +1,4 @@
-# WDATP for Linux 
+# WDATP & Security Center for OnPremises Linux Servers
 
 
 I gave WDATP for Linux a spin. In a small environment a maunal setup as desciribed here is a 20 min process:
