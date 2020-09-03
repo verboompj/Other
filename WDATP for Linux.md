@@ -17,5 +17,5 @@ All in all fairly straight forward: Ubuntu 20.04 Server(S) enrolled in WDATP and
 
 -----------------
 
-
+## Steps & Catches: 
 
