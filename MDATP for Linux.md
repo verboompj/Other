@@ -1,13 +1,13 @@
-# WDATP & Security Center for OnPremises Linux Servers
+# MDATP & Security Center for OnPremises Linux Servers
 
 
-I gave WDATP for Linux a spin. In a small environment a maunal setup is a 20 min process.
-I've enrolled 2 OnPremises Ubuntu machines running Docker, and wanted the machines to be available in Azure Security Center as well as in the WDATP Portal. 
+I gave MDATP for Linux a spin. In a small environment a maunal setup is a 20 min process.
+I've enrolled 2 OnPremises Ubuntu machines running Docker, and wanted the machines to be available in Azure Security Center as well as in the MDATP Portal. 
 
 All in all fairly straight forward: Ubuntu 20.04 Server(S) enrolled in MDATP and Azure Security Center : 
 
 ----------------
-### WDATP:
+### MDATP:
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/wdatpdevices.PNG)
 
