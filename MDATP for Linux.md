@@ -43,6 +43,3 @@ make sure you download the EICAR (test) File : curl -o ~/Downloads/eicar.com.txt
 My nodes popped up nicely in the MDATP Portal : https://securitycenter.microsoft.com 
 
 
-
-
-https://admin.microsoft.com/Adminportal/Home?source=applauncher#/subscriptions/webdirect%252F196fe155-9c91-453a-b29e-424203556852
