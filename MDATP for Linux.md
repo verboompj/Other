@@ -1,7 +1,9 @@
 # MDATP & Security Center for OnPremises Linux Servers
 
 
-I gave MDATP for Linux a spin. In a small environment a maunal setup is a 20 min process.
+I gave MDATP for Linux a spin. In a small environment a maunal setup is a ~10 min process if you have a tenant setup and have MDATP Portal access.
+If you don't , you can enable MDATP on a existing Tenant by adding Trial licenses for M365 E5.
+
 I've enrolled 2 OnPremises Ubuntu machines running Docker, and wanted the machines to be available in Azure Security Center as well as in the MDATP Portal. 
 
 All in all fairly straight forward: Ubuntu 20.04 Server(S) enrolled in MDATP and Azure Security Center : 
@@ -38,4 +40,9 @@ make sure you download the EICAR (test) File : curl -o ~/Downloads/eicar.com.txt
 
 #### Verify
 
-My nodes popped up nicely in the MDATP Portal : https://securitycenter.microsoft.com
+My nodes popped up nicely in the MDATP Portal : https://securitycenter.microsoft.com 
+
+
+
+
+https://admin.microsoft.com/Adminportal/Home?source=applauncher#/subscriptions/webdirect%252F196fe155-9c91-453a-b29e-424203556852
