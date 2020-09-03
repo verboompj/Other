@@ -9,10 +9,12 @@ I've enrolled 2 OnPremises Ubuntu machines running Docker, and wanted the machin
 All in all fairly straight forward: Ubuntu 20.04 Server(S) enrolled in WDATP and Azure Security Center : 
 
 ----------------
+### WDATP:
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/wdatpdevices.PNG)
 
 -----------------
+## ASC: 
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/securitycenter.PNG)
 
