@@ -42,8 +42,16 @@ The cap applied to this service in Preview is set to a fixed 150MBps it seems. H
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultssingle.PNG)
 
-As you can see, based on the blocksize we get a certain amount of IOPS. The formula to convert MBps to IOPS :
+As you can see, based on the blocksize we get a certain amount of IOPS. The formula to convert MBps to IOps :
 `IOPS = (MBps Throughput / KB per IO) * 1024` 
+
+### Scaling out the test
+
+So what if we hit the same storage container with multiple nodes? Does it scale ?
+
+Test ran using 4 nodes ( E4DS_V4 , Accelerated Networking ON ) Simultaniously hitting the NFS Container using DD again, testing 2048 and 4096 blocksizes:
+
+![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultsmultiple.PNG)
 
 
 
