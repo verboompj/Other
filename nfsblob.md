@@ -49,9 +49,23 @@ As you can see, based on the blocksize we get a certain amount of IOPS. The form
 
 So what if we hit the same storage container with multiple nodes? Does it scale ?
 
-Test ran using 4 nodes ( E4DS_V4 , Accelerated Networking ON ) Simultaniously hitting the NFS Container using DD again, testing 2048 and 4096 blocksizes:
+Test ran using 4 nodes ( E4DS_V4 , Accelerated Networking ON ) Simultaneously hitting the NFS Container using DD again, testing 2048 and 4096 blocksizes:
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultsmultiple1.PNG)
+
+The aggregate throughput is at ~600MBps ; again capping each node on 150MBps. Thusfar no IO capping, and we see a linear performance scale out. 
+
+Using 8 nodes (E4DS_V4) again a very decent outcome:
+Interestingly one of the 8 nodes was able to push 253MBps average on the 100Gb file, pushing the all server average to 168.5Mbps. Each node hits at least the 150MBps or higher, even with 8 servers hitting the same container.
+
+![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/node7.PNG)
+
+
+
+
+
+
+
 
 
 
