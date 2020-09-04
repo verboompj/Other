@@ -42,5 +42,9 @@ The cap applied to this service in Preview is set to a fixed 150MBps it seems. H
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultssingle.PNG)
 
+As you can see, based on the blocksize we get a certain amount of IOPS. The formula to convert MBps to IOPS :
+`IOPS = (MBps Throughput / KB per IO) * 1024` 
+
+
 
 
