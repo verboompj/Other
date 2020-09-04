@@ -51,7 +51,7 @@ So what if we hit the same storage container with multiple nodes? Does it scale 
 
 Test ran using 4 nodes ( E4DS_V4 , Accelerated Networking ON ) Simultaniously hitting the NFS Container using DD again, testing 2048 and 4096 blocksizes:
 
-![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultsmultiple.PNG)
+![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultsmultiple1.PNG)
 
 
 
