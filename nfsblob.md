@@ -68,7 +68,7 @@ In the 4K blocksize test, each node hits at least the 150MBps or higher, even wi
 Example output on one of the 8 nodes:
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/node7.PNG)
 
-At the 2K and 1K blocksize tests, we average out on 141 and 139 MBps, dropping just a littlebit under the 150MBps ceiling we experienced in the other tests. I did reduce the testfile to 10GB for the later 2 tests, that might be of invluence 
+At the 2K and 1K blocksize tests, we average out on 141 and 139 MBps, dropping just a littlebit under the 150MBps ceiling we experienced in the other tests. I did reduce the testfile to 10GB for the later 2 tests, that might be of invluence. 
 
 But hey, the results: a whopping 1.1 Milion IOPS when using the 1K blocksize and still almost linear, persistent performance over the board:
 
