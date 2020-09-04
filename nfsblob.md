@@ -58,6 +58,7 @@ The aggregate throughput is at ~600MBps ; again capping each node on 150MBps. Th
 Using 8 nodes (E4DS_V4) again a very decent outcome:
 Interestingly one of the 8 nodes was able to push 253MBps average on the 100Gb file, pushing the all server average to 168.5Mbps. Each node hits at least the 150MBps or higher, even with 8 servers hitting the same container.
 
+Example output on one of the 8 nodes:
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/node7.PNG)
 
 
