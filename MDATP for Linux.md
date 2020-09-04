@@ -55,7 +55,10 @@ Selecting the right ( Security Center enabled ) Workspace. I chose to combine my
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/ascadd.PNG)
 
-And thats it. You'll see the nodes apearing in ASC in a couple of minutes.
+Copy the URL for the `Download and onboard agent for Linux` 
+Run it on your local Linux server, and thats it. 
+You'll see the nodes apearing in ASC in a couple of minutes.
+
 
 
 
