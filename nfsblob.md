@@ -56,13 +56,16 @@ Test ran using 4 nodes ( E4DS_V4 , Accelerated Networking ON ) Simultaneously hi
 The aggregate throughput is at ~600MBps ; again capping each node on 150MBps. Thusfar no IO capping, and we see a linear performance scale out. 
 
 Using 8 nodes (E4DS_V4) again a very decent outcome:
-Interestingly one of the 8 nodes was able to push 253MBps average on the 100Gb file, pushing the all server average to 168.5Mbps. Each node hits at least the 150MBps or higher, even with 8 servers hitting the same container.
+In the 4K blocksize test, each node hits at least the 150MBps or higher, even with 8 servers hitting the same container.
 
 Example output on one of the 8 nodes:
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/node7.PNG)
 
+At the 2K and 1K blocksize tests, we average out on 141 and 139 MBps, dropping just a littlebit under the 150MBps ceiling we experienced in the other tests. I did reduce the testfile to 10GB for the later 2 tests, that might be of invluence 
 
+But hey, the results: a whopping 1.1 Milion IOPS when using the 1K blocksize and still almost linear, persistent performance over the board:
 
+![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultsmultiple2.PNG)
 
 
 
