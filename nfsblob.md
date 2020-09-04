@@ -25,7 +25,7 @@ Next I deployed 4 VM's in the EDSv4 series with Accelerated Networking enabled.
 ------------
 
 
-And mounted my new NFS share and container:
+On all the hosts I mounted my new NFS share and container:
 `sudo mount -o sec=sys,vers=3,nolock,proto=tcp [mySAname].blob.core.windows.net:/[mySAname]/nfs01 /mnt/test`
 
 The NFS endpoint is available over a Private Link endpoint or Service Endpoint directly in or to the selected Subnet, in my case the subnet my VM's are deployed in:
