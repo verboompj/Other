@@ -22,6 +22,9 @@ Next I deployed 4 VM's in the EDSv4 series with Accelerated Networking enabled.
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/networkdiag.PNG)
 
 
+------------
+
+
 And mounted my new NFS share and container:
 `sudo mount -o sec=sys,vers=3,nolock,proto=tcp [mySAname].blob.core.windows.net:/[mySAname]/nfs01 /mnt/test`
 
