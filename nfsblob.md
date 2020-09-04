@@ -8,6 +8,7 @@ This service has hit Public Preview , time to see what its potential could be.
 I ran the step by step to create a storage account wiht an NFS 3.0 endpoint: 
 https://docs.microsoft.com/en-us/azure/storage/blobs/network-file-system-protocol-support-how-to?tabs=windows
 
+------------
 
 ### Steps: 
 
@@ -27,6 +28,9 @@ And mounted my new NFS share and container:
 The NFS endpoint is available over a Private Link endpoint or Service Endpoint directly in or to the selected Subnet, in my case the subnet my VM's are deployed in:
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/vnet.PNG)
+
+
+------------------
 
 
 ### Tests
