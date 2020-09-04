@@ -48,11 +48,14 @@ Pretty straigt forward actually , browsing to ASC in the Azure portal, clicking 
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/ascadd1.PNG)
 
-and selecting the right ( Security Center enabled ) Workspace. I chose to combine my Security Center Workspace with my existing Azure Monitor Log Analytics workspace
+
+
+Selecting the right ( Security Center enabled ) Workspace. I chose to combine my Security Center Workspace with my existing Azure Monitor Log Analytics workspace
+
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/ascadd.PNG)
 
-and thats it. You'll see the nodes apearing in ASC in a couple of minutes
+And thats it. You'll see the nodes apearing in ASC in a couple of minutes.
 
 
 
