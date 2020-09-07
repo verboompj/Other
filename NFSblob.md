@@ -1,7 +1,7 @@
 # NFS endpoint on Azure BlockBlob Storage Premium
 
 Scalable NFS storage , High IO capable Premium Block-Blob storage test setup.
-This service has hit Public Preview , time to see what its potential could be.
+This service has hit Public Preview.
 
 ### Goal: To setup a test to verify the application of NFS on Blob in High I/O usecases.
 
