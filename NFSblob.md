@@ -70,7 +70,7 @@ Example output on one of the 8 nodes:
 
 At the 2K and 1K blocksize tests, we average out on 141 and 139 MBps, dropping just a little bit under the 150MBps ceiling we experienced in the other tests. I did reduce the testfile to 10GB for the later 2 tests, that might be of influence. 
 
-But hey, the results: a whopping 1.1 Milion IOPS when using the 1K blocksize and still almost linear, persistent performance over the board:
+Results: a whopping 1.1 Milion IOPS when using the 1K blocksize and still almost linear, persistent performance over the board:
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/testresultsmultiple2.PNG)
 
