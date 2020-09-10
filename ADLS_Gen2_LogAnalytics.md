@@ -27,9 +27,13 @@ Luckily there is a script for that, its a Powershell based script found here: ht
 And to this script we only need to add the following details: 
 
 `#           - $ResourceGroup`
+
 `#           - $StorageAccountName`
+
 `#           - $CustomerId`
+
 `#           - $SharedKey`
+
 `#           - $LogType`
 
 
