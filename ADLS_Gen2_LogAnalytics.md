@@ -1,4 +1,4 @@
-#Azure Data Lake Gen 2 Storage ( ADLS Gen2 ) monitoring in Log Analytics
+# Azure Data Lake Gen 2 Storage ( ADLS Gen2 ) monitoring in Log Analytics
 
 An Azure Storage account forms the basis of ADLS gen 2. Metric Monitoring of the service is a default service included in the Azure portal.
 
