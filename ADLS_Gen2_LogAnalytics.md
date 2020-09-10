@@ -42,6 +42,7 @@ Output:
 
 You can lookup each value in your Azure portal. The last one is a value of choice , for instance “adlslog”, under this name your data appears in Log Analytics ( LA ) workspace. 
 
+![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/LAADLS.PNG)
 
 
 
