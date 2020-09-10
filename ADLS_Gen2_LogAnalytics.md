@@ -17,4 +17,20 @@ These additional diagnostics get stored in a "hidden" container on your storage 
 
 ![Screenshot](https://github.com/verboompj/Other/blob/master/Pictures/logssa.PNG)
 
-We can schedule 
+
+# Importing into Log Analytics Workspace
+
+The diagnostics info is stored in a flat file, that we need to convert into a JSON format. After that we can upload to a Log Analytics workspace of choice
+
+Luckily there is a script for that, its a Powershell based script found here: https://github.com/Azure/azure-docs-powershell-samples/blob/master/storage/post-storage-logs-to-log-analytics/PostStorageLogs2LogAnalytics.ps1
+
+And to this script we only need to add the following details: 
+
+`#           - $ResourceGroup`
+`#           - $StorageAccountName`
+`#           - $CustomerId`
+`#           - $SharedKey`
+`#           - $LogType`
+
+
+
