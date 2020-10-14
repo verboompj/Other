@@ -1,5 +1,5 @@
 
-Export certificate from Azure Keyvauls
+Export certificate from Azure Keyvault
 
 import locay, mark key as exportable
 
