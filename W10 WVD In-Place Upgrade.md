@@ -3,7 +3,7 @@
 ## Unsupported
 
 Upgrading Persistent Desktops is something that is inevitable in time. 
-As Feature updates are released on a ~6 month cadence , it makes sense to move from your 1903 release (19H1) to a say 2004 ( 20H1 ) in some point in time, as they will run out of support at some stage. 
+As Feature updates are released on a ~6 month cadence , it makes sense to move from your 1903 release (19H1) to a say 2004 ( 20H1 ) release at some point in time, as they will run out of support at some stage. 
 
 WVD currently offers no solution for it, and technically Azure does not support in-place upgrades of the OS:
 https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/in-place-system-upgrade 
@@ -12,7 +12,7 @@ Its the Pet vs Kettle discussion.
 
 ### Seperate OS, App & Profile
 
-Also, in any VDI solution, sucessfully seperating the Apps, Profile and OS mitigates this scenario and allow for the OS to be replaced rather then to be upgraded.
+Also, as in any VDI solution, sucessfully seperating the Apps, Profile and OS mitigates this scenario and allow for the OS to be replaced rather then to be upgraded.
 One would be able to replace the OS and leave Apps ( MSIX App Attach ) and Profile ( FSLogix ) untouched.
 
 Now thats only true for a number of cases, and is completely true for Pooled, non-persistent desktops of course. 
