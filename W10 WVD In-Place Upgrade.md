@@ -8,7 +8,7 @@ As Feature updates are released on a ~6 month cadence , it makes sense to move f
 WVD currently offers no solution for it, and technically Azure does not support in-place upgrades of the OS:
 https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/in-place-system-upgrade 
 
-Its the Cat vs Kettle discussion.
+Its the Pet vs Kettle discussion.
 
 Also, in any VDI solution, sucessfully seperating the Apps, Profile and OS mitigates this scenario and allow for the OS to be replaced rather then to be upgraded.
 One would be able to replace the OS and leave Apps ( MSIX App Attach ) and Profile ( FSLogix ) untouched.
