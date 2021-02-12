@@ -17,8 +17,24 @@ But in case we have dedicated, pweronal desktops that have heavy modifications a
 
 As an unsupported route, some customers are succesfull in replacing the OS in-place on Azure.
 The thing that cathes most deployments is the lack of console access;  where normally one would accept the EULA and enroll the OOBE experience at the initial launch of a fresh Windows 10 deployment. Since this is unavailable for Azure VM's, we need to navigate around the OOBE (Out Of Box Experience). 
-A way to force this is by running the setup command and adding the 'showoobe none'  command.
+A way to force this is by running the setup command and adding the `showoobe none`  command.
 
-'setup.exe /auto upgrade /migratedrivers all /dynamicupdate enable  /compat ignorewarning /showoobe none'
+`setup.exe /auto upgrade /migratedrivers all /dynamicupdate enable  /compat ignorewarning /showoobe none`
+
+One can do the in-place upgrade by munting the ISO of the desired release and run the command as an administrator. 
+Create the ISO using the Media Creation Tool or any other means https://www.microsoft.com/en-us/software-download/windows10
+
+Did i mention this is unsupported ?
+
+Make sure you snapshot the disk before running the update so you can revert to a working VM
+
+`az snapshot create --name fqnd_CHANGEME --resource-group resourcegroup_CHANGEME --source CURRENT_DISKNAME_CHANGEME --hyper-v-generation [v1/v2] --sku Premium_LRS `
+    
+`az disk create -g resourcegroup_CHANGEME -n fqnd_newdisk_CHANGEME --source fqnd_CHANGEME --hyper-v-generation [v1/v2] --sku Premium_LRS`
+
+
+
+
+
 
 
