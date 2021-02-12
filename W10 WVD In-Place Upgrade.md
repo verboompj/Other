@@ -29,7 +29,7 @@ A way to force this is by running the setup command and adding the `showoobe non
 One can do the in-place upgrade by munting the ISO of the desired release and run the command as an administrator. 
 Create the ISO using the Media Creation Tool or any other means https://www.microsoft.com/en-us/software-download/windows10
 
-Did i mention this is unsupported ?
+### Did i mention this is unsupported ?
 
 Make sure you snapshot the disk before running the update so you can revert to a working VM
 
