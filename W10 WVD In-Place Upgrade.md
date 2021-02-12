@@ -3,7 +3,7 @@
 ## Unsupported
 
 Upgrading Persistent Desktops is something that is inevitable in time. 
-As Feature updates are released on a ~6 month cadence , it makes sense to move from your 1903 release (19H1) to a say 2004 ( 20H1 ) release at some point in time, as they will run out of support at some stage. 
+As Feature updates are released on a ~6 month cadence , it makes sense to move from your 1903 release (19H1) to a say 2004 ( 20H1 ) release at some point in time, as releases will run out of support at some stage. 
 
 WVD currently offers no solution for it, and technically Azure does not support in-place upgrades of the OS:
 https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/in-place-system-upgrade 
