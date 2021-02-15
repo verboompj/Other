@@ -26,7 +26,7 @@ A way to force this is by running the setup command and adding the `showoobe non
 
 `setup.exe /auto upgrade /migratedrivers all /dynamicupdate enable  /compat ignorewarning /showoobe none`
 
-One can do the in-place upgrade by munting the ISO of the desired release and run the command as an administrator. 
+One can do the in-place upgrade by mounting the ISO of the desired release and run the command as an administrator. 
 Create the ISO using the Media Creation Tool or any other means https://www.microsoft.com/en-us/software-download/windows10
 
 ### Did I mention this is not supported ?
