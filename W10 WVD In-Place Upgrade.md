@@ -12,7 +12,7 @@ Its the Pet vs Kettle discussion.
 
 ### Seperate OS, App & Profile
 
-Also, as in any VDI solution, sucessfully seperating the Apps, Profile and OS mitigates this scenario and allow for the OS to be replaced rather then to be upgraded.
+As in any VDI solution, sucessfully seperating the Apps, Profile, and OS, mitigates this scenario and allow for the OS to be replaced rather then to be upgraded.
 One would be able to replace the OS and leave Apps ( MSIX App Attach ) and Profile ( FSLogix ) untouched.
 
 Now thats only true for a number of cases, and is completely true for Pooled, non-persistent desktops of course. 
