@@ -1,6 +1,6 @@
 # UNSUPPORTED In-Place Upgrade WVD Nodes
 
-## Unsupported
+## This is an Unsupported operation, only fit for test & non-production deployments
 
 Upgrading Persistent Desktops is something that is inevitable in time. 
 As Feature updates are released on a ~6 month cadence , it makes sense to move from your 1903 release (19H1) to a say 2004 ( 20H1 ) release at some point in time, as releases will run out of support at some stage. 
