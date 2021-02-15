@@ -21,6 +21,8 @@ But in case we have dedicated, personal desktops that have heavy modifications a
 ### In-Place option
 
 As an unsupported route, some customers are succesfull in replacing the OS in-place on Azure.
+This is something one can do on testing / non-production environments.
+
 The thing that cathes most deployments is the lack of console access;  where normally one would accept the EULA and enroll the OOBE experience at the initial launch of a fresh Windows 10 deployment. Since this is unavailable for Azure VM's, we need to navigate around the OOBE (Out Of Box Experience). 
 A way to force this is by running the setup command and adding the `showoobe none`  command.
 
