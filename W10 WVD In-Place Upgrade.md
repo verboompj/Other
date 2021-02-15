@@ -33,7 +33,7 @@ Create the ISO using the Media Creation Tool or any other means https://www.micr
 
 ### Did I mention this is not supported ?
 
-Make sure you snapshot the disk before running the update so you can revert to a working VM
+Make sure you snapshot the disk before running the update so you can revert to a working VM in case you run into issues upgrading.
 
 `az snapshot create --name fqnd_CHANGEME --resource-group resourcegroup_CHANGEME --source CURRENT_DISKNAME_CHANGEME --hyper-v-generation [v1/v2] --sku Premium_LRS `
     
