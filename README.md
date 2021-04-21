@@ -14,7 +14,9 @@ This repository is used to save tips & tricks I stumble on and find usefull
 [WVD Win10 Personal Desktop In-Place Upgrade ](https://github.com/verboompj/Other/blob/master/W10%20WVD%20In-Place%20Upgrade.md)
 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com/verboompj/Other/master/azuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fverboompj%2FOther%2Fmaster%2Fazuredeploy.json)
 
+
+https://raw.githubusercontent.com/verboompj/Other/master/azuredeploy.json
 
 [![Deploy To Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2F)
