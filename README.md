@@ -13,3 +13,6 @@ This repository is used to save tips & tricks I stumble on and find usefull
 
 [WVD Win10 Personal Desktop In-Place Upgrade ](https://github.com/verboompj/Other/blob/master/W10%20WVD%20In-Place%20Upgrade.md)
 
+
+
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/verboompj/Other/blob/master/rhelnew.json)
